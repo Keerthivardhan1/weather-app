@@ -5,18 +5,6 @@
     font-family: "Poppins " , sans-serif;
 
 }
-
-/* :root{
-    --white :#ffffff
-    --off-white : #e5e5e5
-    --transp-white-1: rgba(225,225,225,0.25);
-    --transp-white-2:rgba(225,225,225,0.1);
-    --blue-1 :#62b8f5;
-    --blue-2:#4475ef;
-    --shadow:rgba(3,46,87,0.2);
-
-
-} */
 :root {
     --white: #ffffff;
     --off-white: #e5e5e5;
@@ -170,3 +158,4 @@ left: -2.5em;
       font-size: 14px;
     }
   }
+

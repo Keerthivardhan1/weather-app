@@ -9,8 +9,6 @@ let getWeather = () =>{
     if(cityValue.length == 0){
         result.innerHTML ="<h3> Please enter city name"
     }
- 
- let resp;
     let url=`https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${key}&units=metric`
     
     fetch(url)
@@ -51,3 +49,4 @@ let getWeather = () =>{
 
 searchBtn.addEventListener("click" , getWeather)
 window.addEventListener("load" , getWeather)
+
